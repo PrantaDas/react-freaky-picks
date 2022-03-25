@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-image: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+}
+.nav h1{
+    color: white;
+}
+.title{
+    font-style: italic;
+    font-weight: 900;
+}

@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "price": "$2,765",
+      "picture": "https://img.freepik.com/free-vector/wireless-headphones-set_1284-20423.jpg?t=st=1648231806~exp=1648232406~hmac=ef5925e2e903345a34231444b2eaf92aca773e802993cb11cb73c91f1eb0241e&w=1060",
+      "name": "Ediffer PS01"
+    },
+    {
+      "id": 2,
+      "price": "$3,725",
+      "picture": "https://www.freepik.com/free-photo/red-gold-headphones-digital-device_13309275.htm#query=headphones&position=7&from_view=search",
+      "name": "Ediffer PS02I"
+    },
+    {
+      "id": 3,
+      "price": "$3,098",
+      "picture": "https://img.freepik.com/free-photo/black-headphones-digital-device_53876-97302.jpg?t=st=1648231806~exp=1648232406~hmac=6251e6b1b57a0e959541038b608cba87a7717df2a219819969bd4aa20c2ad1cd&w=740",
+      "name": "Ediffer JY6L"
+    },
+    {
+      "id": 4,
+      "price": "$3,237",
+      "picture": "https://img.freepik.com/free-psd/creative-headphone-mockup_1310-744.jpg?t=st=1648231806~exp=1648232406~hmac=a93ad62b398b5b546561d57fd71bc9780e54bd826659e54e009914e543ad893b&w=1060",
+      "name": "Ediffer KI5R"
+    },
+    {
+      "id": 5,
+      "price": "$3,272",
+      "picture": "https://img.freepik.com/free-psd/headphones-mockup-floating_1332-8173.jpg?t=st=1648231806~exp=1648232406~hmac=e7cf41243cab8938af3c90e2c599947342d2976305eedf1c3d6f49fe3f715a80&w=1060",
+      "name": "Ediffer ZSN7T"
+    },
+    {
+      "id": 6,
+      "price": "$1,372",
+      "picture": "https://img.freepik.com/free-psd/creative-headphone-mockup_1310-740.jpg?t=st=1648231806~exp=1648232406~hmac=c7e728b9b6b2e9294a6f1181d7fb5e3cfa66e8d19bb96f2124801cef2e6b8566&w=1060",
+      "name": "Ediffer BS2E"
+    },
+    {
+      "id": 7,
+      "price": "$1,591",
+      "picture": "https://img.freepik.com/free-vector/realistic-wireless-headphones-set_1284-20424.jpg?t=st=1648231806~exp=1648232406~hmac=ad4416e02dd684b809029eb22808be17c8e28cf3da31b1ddc7aafe61bf8b0974&w=1060",
+      "name": "Ediffer ISO9R"
+    },
+    {
+      "id": 8,
+      "price": "$3,542",
+      "picture": "https://www.freepik.com/free-psd/creative-headphone-mockup_1609441.htm#query=headphones&position=25&from_view=search",
+      "name": "Ediffer HM13E"
+    },
+    {
+      "id": 9,
+      "price": "$1,186",
+      "picture": "https://www.freepik.com/free-photo/pink-headphones-wireless-digital-device_13300461.htm#query=headphones&position=0&from_view=search",
+      "name": "Ediffer FT7C"
+    }
+  ]
