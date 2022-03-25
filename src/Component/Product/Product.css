@@ -1,0 +1,36 @@
+.product{
+    height: 360px;
+    width: 300px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.image-container{
+    height: 290px;
+    width: 290px;
+}
+.image-container img{
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+}
+.details-container{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.details-container p{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 600;
+}
+.text {
+	
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.price{
+    background: linear-gradient(90deg,red,blue);
+    background-clip: text;
+    color: transparent;
+}

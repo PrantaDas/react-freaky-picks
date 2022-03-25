@@ -1,0 +1,17 @@
+.products-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.single-product{
+    margin-left: 30px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.banner-text{
+    font-family: 'Concert One', cursive;;
+    background: linear-gradient(135deg,red 50%,rgb(93, 93, 226) 50%);
+    background-clip: text;
+    color: transparent;
+}
