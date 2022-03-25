@@ -10,7 +10,7 @@
     grid-gap: 20px;
 }
 .banner-text{
-    font-family: 'Concert One', cursive;;
+    font-family: 'Concert One', cursive;
     background: linear-gradient(135deg,red 50%,rgb(93, 93, 226) 50%);
     background-clip: text;
     color: transparent;

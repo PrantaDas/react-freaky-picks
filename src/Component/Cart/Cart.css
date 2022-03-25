@@ -1,0 +1,24 @@
+.cart-container{
+    height: 100vh;
+    padding: 15px 15px;
+    background-color: white;
+    border-radius: 10px;
+    position: fixed;
+    top: 65px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.cart-title{
+    font-family: 'Kaushan Script', cursive;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.btn-choose{
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+    font-weight: bold;
+    padding: 5px 8px;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+
+  

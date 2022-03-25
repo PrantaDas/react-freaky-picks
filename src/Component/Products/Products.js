@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Products.css'
 
@@ -10,8 +11,8 @@ const Products = () => {
         .then(data=>setProducts(data))
     },[])
     return (
-        <div>
-            <h1 className='banner-text'>Choose Any of Four Products</h1>
+        <div className='products'>
+            <h1 className='banner-text my-4'>Choose Any of Four Products</h1>
                  <div className='products-container'>
                     <div className='single-product'>
                         {
@@ -19,7 +20,7 @@ const Products = () => {
                         }
                             </div>
                     <div>
-                        <p>This is cart</p>
+                        <Cart></Cart>
                     </div>
         </div>
         </div>

@@ -1,7 +1,9 @@
 .product{
-    height: 360px;
+    height: 410px;
     width: 300px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 0 0 8px 8px;
+    position: relative;
 }
 .image-container{
     height: 290px;
@@ -24,7 +26,6 @@
     font-weight: 600;
 }
 .text {
-	
 	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -34,3 +35,14 @@
     background-clip: text;
     color: transparent;
 }
+.btn{
+    width: 100%;
+    outline: 0;
+    border: none;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    border-radius: 0 0 8px 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/* background-image: linear-gradient(to right, #fc5c7d, #6a82fb); */
