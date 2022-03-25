@@ -18,7 +18,25 @@
     font-weight: bold;
     padding: 5px 8px;
     border-radius: 6px;
-    border: 2px solid black;
+    border: 2px solid grey;
+}
+.cart-picture{
+    height: 40px;
+    width: 40px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.cart-details{
+    display: flex;
+    justify-content: space-around;
+}
+.cart-details p{
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
   
