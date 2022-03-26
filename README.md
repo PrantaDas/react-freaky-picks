@@ -2,8 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-#Live Site Link below.
-[Live site](https://rainbow-peony-a5c565.netlify.app/)
+#Live Site Link below.\
+[Live site of Freaky Picks](https://rainbow-peony-a5c565.netlify.app/)
 
 ## Available Scripts
 
