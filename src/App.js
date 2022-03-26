@@ -7,8 +7,8 @@ import Products from './Component/Products/Products';
 function App() {
   return (
     <div className="App">
-   <Header></Header>
-   <Products></Products>
+      <Header></Header>
+      <Products></Products>
     </div>
   );
 }

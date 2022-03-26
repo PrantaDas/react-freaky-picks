@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-    const {cart}=props;
+    const {cart,chosseAgain,chooseProduct,newItem}=props;
+    
+    console.log(cart);
+    
     
     return (
         <div className='cart-container'>
@@ -17,13 +20,14 @@ const Cart = (props) => {
                     </div>
                    ))
                }
+               <p className='select-item'>Your Referred item is:{newItem.name}</p>
             </div>
             <div className='btn-container'>
                 <div className='p2'>
-                    <button className='btn-choose'>Chosse 1 for Me!</button>
+                    <button onClick={chooseProduct} className='btn-choose'>Chosse 1 for Me!</button>
                 </div>
                 <div className='p-2'>
-                     <button className='btn-choose'>Choose Again</button>
+                     <button onClick={chosseAgain} className='btn-choose'>Choose Again</button>
                 </div>
             </div>
             
