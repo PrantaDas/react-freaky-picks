@@ -3,8 +3,8 @@
     padding: 15px 15px;
     background-color: white;
     border-radius: 10px;
-    position: fixed;
-    top: 65px;
+    /* position: fixed;
+    top: 65px; */
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 .cart-title{
@@ -44,5 +44,15 @@
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-
+@media screen and (max-width:770px){
+    .cart-container{
+        width: 100%;
+    }
+}
+@media screen and (min-width:1024px) {
+    .cart-container{
+        position: fixed;
+    top: 65px;
+    }
+}
   

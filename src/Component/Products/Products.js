@@ -31,14 +31,14 @@ const Products = () => {
     
     return (
         <div className='products'>
-            <h1 className='banner-text my-4'>Choose Any of Four Products</h1>
+            <h1 className='banner-text my-4 text-center'>Choose Any of Four Products</h1>
                  <div className='products-container'>
                     <div className='single-product'>
                         {
                             products.map(product=><Product key={product.id} product={product}  handleAddToCart={handleAddToCart}></Product>)
                         }
-                            </div>
-                    <div>
+                    </div>
+                    <div className='choose-area'>
                         
                             <Cart key={cart.id} cart={cart} chosseAgain={chosseAgain} chooseProduct={chooseProduct} newItem={newItem}></Cart>
                         
