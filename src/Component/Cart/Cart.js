@@ -20,7 +20,10 @@ const Cart = (props) => {
                     </div>
                    ))
                }
-               <p className='select-item'>Your Referred item is:{newItem.name}</p>
+               
+            </div>
+            <div>
+            <p className='select-item'>Your Referred item is:{newItem.name}</p>
             </div>
             <div className='btn-container'>
                 <div className='p2'>
